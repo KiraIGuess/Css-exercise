@@ -1,13 +1,4 @@
 
-/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-
-/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
-
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-
-
-
-
 body{
 
     background-color: #0fcf90;
@@ -64,4 +55,11 @@ a:visited{
 }
 h1:hover{
     color :blue;
+}
+label{
+    text-transform : uppercase;
+}
+#special::first-letter{
+    color : green;
+    font-size: 100 ;
 }
